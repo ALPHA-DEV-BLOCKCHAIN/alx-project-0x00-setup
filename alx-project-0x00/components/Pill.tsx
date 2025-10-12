@@ -1,3 +1,4 @@
+import { PillProps } from "@/interfaces";
 import React from "react"
 
 interface PillProps {
@@ -13,3 +14,5 @@ const Pill: React.FC<PillProps> = ({ title }) => {
 }
 
 export default Pill;
+
+
